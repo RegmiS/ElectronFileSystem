@@ -1,0 +1,31 @@
+{
+  "name": "ElectronFileSystem",
+  "version": "1.0.0",
+  "description": "A project for Electron that deals with file handling. The main purpose of this project is to learn more about electron projects in terms of file structure.",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RegmiS/ElectronFileSystem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RegmiS/ElectronFileSystem/issues"
+  },
+  "homepage": "https://github.com/RegmiS/ElectronFileSystem#readme",
+  "devDependencies": {
+    "electron": "^11.1.1",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "chokidar": "^3.4.3",
+    "drag-drop": "^6.1.0",
+    "fs-extra": "^9.0.1",
+    "open": "^7.3.0"
+  }
+}
